@@ -1,0 +1,22 @@
+.col-10pct {
+    display: inline-block;
+     width: 10%;
+    height: 100px;
+}
+
+.col-100pct {
+    width: 80%;
+    height: 50px;
+}
+
+.col-70pct {
+ height: 200px;
+}
+
+.col-30pct {
+ height: 100px;
+}
+
+.ftr {
+    background-color: #0d45db;
+}

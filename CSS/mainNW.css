@@ -59,6 +59,13 @@ body {
     height: 150px;
 }
 
+.col-10pct {
+    display: none;
+    width: 10%;
+    height: 50px;
+    background-color: red;
+}
+
 .hdr {
     width: 98.9%;
     height: 50%;
@@ -115,7 +122,7 @@ body {
 
 #harrier {
     width: 100%;
-    height: 274px
+    height: 274px;
 }
 
 #katana {
@@ -127,3 +134,22 @@ body {
     width: 100%;
     height: 124px;
 }
+
+/*
+@media screen and (max-device-width: 1024px) {
+    .col-100pct {
+        width: 70%;
+    }
+    .col-10pct {
+        display: inline-block;
+        width: 10%;
+        height: 100px;
+    }
+    .col-70pct {
+    height: 200px;
+    }
+    .col-30pct {
+    height: 100px;
+    }
+}
+*/
