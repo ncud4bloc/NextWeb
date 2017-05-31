@@ -1,22 +1,17 @@
 .col-10pct {
     display: inline-block;
-     width: 10%;
-    height: 100px;
+     width: 12%;
 }
 
 .col-100pct {
-    width: 80%;
+    width: 88%;
     height: 50px;
 }
 
 .col-70pct {
- height: 200px;
+ height: 370px;
 }
 
 .col-30pct {
- height: 100px;
-}
-
-.ftr {
-    background-color: #0d45db;
+ height: 185px;
 }
