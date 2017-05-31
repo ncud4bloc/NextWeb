@@ -136,9 +136,10 @@ body {
 }
 
 /*
-@media screen and (max-device-width: 1024px) {
+@media (max-width: 1024px) {
     .col-100pct {
-        width: 70%;
+        width: 80%;
+        height: 50px;
     }
     .col-10pct {
         display: inline-block;
@@ -151,5 +152,7 @@ body {
     .col-30pct {
     height: 100px;
     }
-}
-*/
+    .ftr {
+    background-color: #0d45db;
+    }
+}*/
