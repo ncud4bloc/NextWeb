@@ -6,15 +6,16 @@ body {
 .grid {
     overflow: auto;     /* Takes care of collapsing div */
     width: 100%;        /* Takes care of collapsing div */
+            /* Another way to take care of collapsing div:
+            .grid:after {
+                content: "";
+                display: table;
+                clear: both;
+            }*/
     background-color: #fff;
     padding-left: 0; /* For Making the Outside Gutters */
 }
-/* Another way to take care of collapsing div:
-.grid:after {
-    content: "";
-    display: table;
-    clear: both;
-}*/
+
 
 /* Begin Making the Inside Gutters: */
     /* First, set width, regardless of borders or padding added later */
@@ -32,7 +33,7 @@ body {
 /* End Making the Inside Gutters */
 
 [class*="col-"] {
-    background-color: #1aefcf;
+    background-color: #fff;
     border: 1px solid red;
     float: left;
 }
@@ -66,15 +67,34 @@ body {
 
 .hdr {
     width: 98.9%;
-    height: 50%;
-    background-color: #958888;
-    margin: 3px auto 0 0.75%;
+    height: 18%;
+    background-color: #000; /*#958888;*/
+    margin: -9px auto 0 0.75%;
+}
+
+.hdr2 {
+    width: 98.9%;
+    height: 5%;
+    background-color: #000; /*#958888;*/
+    margin: -3px auto 0 0.75%;
 }
 
 .logo_text {
     font-family: 'Tangerine', cursive;
     font-size: 1.5em;
     font-weight: 700;
+    text-align: center;
+}
+
+.logo2_text {
+    position: relative;
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 0;
+    top: 25px;
+    left: 25px;
 }
 
 .art {
@@ -107,6 +127,7 @@ body {
 
 #nav_box {
     height: 32px;
+    background-color: #000;
 }
 
 #search_box {
@@ -127,6 +148,102 @@ body {
     background-image: url("file:///C:/Users/ncudd/OdinProjects/Git_Repos/NextWeb/IMAGES/WindCave2.jpeg");
     background-size: cover;
     background-position: center;
+}
+
+.nav1 {
+    position: relative;
+    list-style-type: none;
+    height: 32px;
+    float: left;
+}
+
+.nav2 {
+    position: relative;
+    list-style-type: none;
+    height: 32px;
+    float: right;
+}
+
+.srch1 {
+    position: relative;
+    list-style-type: none;
+    height: 48px;
+    float: left;
+}
+
+.srch2 {
+    position: relative;
+    width: 400px;
+    list-style-type: none;
+    height: 48px;
+    margin-right: -160px;
+    float: right;
+}
+
+li {
+    display: inline;
+}
+
+.clr1 {
+    color: #fff;
+    font-weight: 600;
+    margin-left: -30px;
+    margin-right: 10px;
+}
+
+.clr2 {
+    color: #afa2a2;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.clr3 {
+    color: #a8a8a8;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: -30px;
+}
+
+.clr4, .clr5, .clr6 {
+    margin-left: 10px;
+}
+
+.clr6 {
+    display: none;
+}
+
+.scaled {
+    width: 75%;
+}
+
+.scaled2 {
+    width: 100%;
+}
+
+.icons {
+    width: 22px;
+    margin-top: 18px;
+    margin-left: 10px;
+    float: right;
+}
+
+.icons2 {
+    width: 35px;
+    margin-top: 18px;
+    margin-left: 10px;
+    float: right;
+}
+
+#bars_icon, #srch_icon {
+    border-left: 1px solid #a8a8a8;
+    padding-top: 12px;
+    padding-left: 10px;
+    height: 48px;
+    margin-top: 3px;
+}
+
+#bars_icon {
+    display: none;
 }
 
 /*
