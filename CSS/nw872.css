@@ -43,3 +43,31 @@
 #dots_icon, #email_icon, #twtr_icon, #fb_icon {
     display: none;
 }
+
+.art_t {
+    position: relative;
+    width: 100%;
+    top: 10%;
+    left: 5%;
+}
+
+.article_text {
+    font-size: 1.5em;
+    line-height: 0.9;
+}
+
+.art {
+    position: relative;
+    top: -21px;
+}
+
+.logo {
+    margin-top: -13px;
+}
+
+.asi_t {
+    position: relative;
+    width: 100%;
+    top: 10%;
+    left: 5%;
+}

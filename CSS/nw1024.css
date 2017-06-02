@@ -9,7 +9,7 @@
 }
 
 .col-70pct {
- height: 370px;
+    height: 370px;
 }
 
 .col-30pct {
@@ -18,4 +18,16 @@
 
 .logo2 {
     display: none;
+}
+
+.art {
+    position: relative;
+    top: -29px;
+}
+
+.art_t {
+    position: relative;
+    width: 100%;
+    top: 70%;
+    left: 5%;
 }

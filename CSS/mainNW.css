@@ -13,6 +13,7 @@ body {
                 clear: both;
             }*/
     background-color: #fff;
+    background: linear-gradient(#c4c4c4, #fff)
     padding-left: 0; /* For Making the Outside Gutters */
 }
 
@@ -34,7 +35,7 @@ body {
 
 [class*="col-"] {
     background-color: #fff;
-    border: 1px solid red;
+    border: 1px solid #fff;
     float: left;
 }
 
@@ -62,7 +63,8 @@ body {
     display: none;
     width: 10%;
     height: 80px;
-    background-color: red;
+    background-color: #ff0000;
+    background: linear-gradient(to right bottom, #ff0000, #d4c1d6);
 }
 
 .hdr {
@@ -89,7 +91,7 @@ body {
 .logo2_text {
     position: relative;
     font-family: 'Tangerine', cursive;
-    font-size: 2.5em;
+    font-size: 3.5em;
     font-weight: 700;
     text-align: left;
     margin-top: 0;
@@ -112,12 +114,20 @@ body {
     height: 84%;
     background-color: #958888;
     margin: 3px auto 0 auto;
+    position: relative;
+    top: -21px;
+}
+
+#ftr_box {
+    width: 100%;
 }
 
 .ftr {
     width: 60%;
     height: 80%;
-    background-color: #958888;
+    background-image: url("file:///C:/Users/ncudd/OdinProjects/Git_Repos/NextWeb/IMAGES/wide3.jpeg");
+    background-size: cover;
+    background-position: center;
     margin: 3px auto 0 auto;
 }
 
@@ -128,6 +138,7 @@ body {
 #nav_box {
     height: 32px;
     background-color: #000;
+    border: 1px solid #000;
 }
 
 #search_box {
@@ -244,6 +255,48 @@ li {
 
 #bars_icon {
     display: none;
+}
+
+.art_t {
+    position: relative;
+    width: 100%;
+    top: 50%;
+    left: 5%;
+}
+
+.article_text {
+    font-family: 'Catamaran', sans-serif;
+    width: 90%;
+    font-size: 2em;
+    line-height: 0.9;
+}
+
+.asi_t {
+    position: relative;
+    width: 100%;
+    top: 50%;
+    left: 5%;
+}
+
+.aside_text {
+    font-family: 'Catamaran', sans-serif;
+    width: 90%;
+    font-size: 1.5em;
+    line-height: 0.9;
+}
+
+#tail_end {
+    position: relative;
+    width: 30%;
+    top: 20%;
+    left: 5%;
+    text-align: left;
+}
+
+.col-smain {
+    width: 100%;
+    background: linear-gradient(#c4c4c4, #fff) !important;
+    padding: 2px;
 }
 
 /*
