@@ -104,7 +104,8 @@ body {
     height: 92%;
     background-color: #958888;
     margin: 3px auto 0 1.1%;
-    background-image: url("file:///C:/Users/ncudd/OdinProjects/Git_Repos/NextWeb/IMAGES/Superstition3.jpeg");
+    /*background-image: url("file:///C:/Users/ncudd/OdinProjects/Git_Repos/NextWeb/IMAGES/Superstition3.jpeg");*/
+    background-image: url("../IMAGES/Superstition3.jpeg");
     background-size: cover;
     background-position: center;
 }
@@ -125,7 +126,8 @@ body {
 .ftr {
     width: 60%;
     height: 80%;
-    background-image: url("file:///C:/Users/ncudd/OdinProjects/Git_Repos/NextWeb/IMAGES/wide3.jpeg");
+    /*background-image: url("file:///C:/Users/ncudd/OdinProjects/Git_Repos/NextWeb/IMAGES/wide3.jpeg");*/
+    background-image: url("../IMAGES/wide3.jpeg");
     background-size: cover;
     background-position: center;
     margin: 3px auto 0 auto;
@@ -150,13 +152,15 @@ body {
 }
 
 #asi1 {
-    background-image: url("file:///C:/Users/ncudd/OdinProjects/Git_Repos/NextWeb/IMAGES/Superstition2.jpeg");
+    /*background-image: url("file:///C:/Users/ncudd/OdinProjects/Git_Repos/NextWeb/IMAGES/Superstition2.jpeg");*/
+    background-image: url("../IMAGES/Superstition2.jpeg");
     background-size: cover;
     background-position: 50% 20%;
 }
 
 #asi2 {
-    background-image: url("file:///C:/Users/ncudd/OdinProjects/Git_Repos/NextWeb/IMAGES/WindCave2.jpeg");
+    /*background-image: url("file:///C:/Users/ncudd/OdinProjects/Git_Repos/NextWeb/IMAGES/WindCave2.jpeg");*/
+    background-image: url("../IMAGES/WindCave2.jpeg");
     background-size: cover;
     background-position: center;
 }
